@@ -90,3 +90,4 @@ public class Cipher {
         }
         return index;
     }
+}
