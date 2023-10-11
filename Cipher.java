@@ -2,7 +2,7 @@ public class Cipher {
     public String plaintext;
     public String ciphertext;
 
-    //加密
+    //加密（修改后）
     public String encode(String text) {
         if (text.matches("^[a-zA-Z0-9]{1,16}$")){
             char[] ch = text.toCharArray();
@@ -19,7 +19,7 @@ public class Cipher {
         return null;
     }
 
-    //解密
+    //解密（修改后）
     public String decode(String text) {
         if (text == null)
             return null;
