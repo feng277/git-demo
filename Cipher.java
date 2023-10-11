@@ -89,5 +89,7 @@ public class Cipher {
             index = (int)(random() * len);
         }
         return index;
+
+        //new
     }
 }
